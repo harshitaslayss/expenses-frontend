@@ -35,7 +35,7 @@ function AddForm() {
 
   useEffect(() => {
     if (id) {
-      fetch(`${process.env.API_URL}/transactions/${id}`, {
+      fetch(`${process.env.REACT_APP_API_URL}/transactions/${id}`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -54,7 +54,7 @@ function AddForm() {
   }, [id, token]);
 
   useEffect(() => {
-    fetch(`${process.env.API_URL}/categories`, {
+    fetch(`${process.env.REACT_APP_API_URL}/categories`, {
       headers: {
         Authorization: `Bearer ${token}`,
       },
@@ -76,7 +76,7 @@ function AddForm() {
       category: info.category,
     };
 
-    fetch(`${process.env.API_URL}${url}`, {
+    fetch(`${process.env.REACT_APP_API_URL}${url}`, {
       method: method,
       headers: {
         "Content-Type": "application/json",
@@ -108,7 +108,7 @@ function AddForm() {
 
       if (!name) return;
 
-      const response = await fetch(`${process.env.API_URL}/categories`, {
+      const response = await fetch(`${process.env.REACT_APP_API_URL}/categories`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
