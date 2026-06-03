@@ -44,7 +44,7 @@ function ExpenseRecord() {
   };
 
   useEffect(() => {
-    fetch(`${process.env.API_URL}/transactions`, {
+    fetch(`${process.env.REACT_APP_API_URL}/transactions`, {
       headers: {
         Authorization: `Bearer ${token}`,
       },
@@ -63,7 +63,7 @@ function ExpenseRecord() {
   }, [location, token]);
 
   useEffect(() => {
-    fetch(`${process.env.API_URL}/categories`, {
+    fetch(`${process.env.REACT_APP_API_URL}/categories`, {
       headers: {
         Authorization: `Bearer ${token}`,
       },
