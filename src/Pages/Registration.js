@@ -34,7 +34,7 @@ const Registration = () => {
     setError("");
     try {
       const response = await axios.post(
-      `${process.env.API_URL}/register`,
+      `${process.env.REACT_APP_API_URL}/register`,
         formData,
       );
       if (response.status === 201) {
