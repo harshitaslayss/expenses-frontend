@@ -30,7 +30,7 @@ function Dashboard() {
     useEffect(()=>
     {
     const token = localStorage.getItem("token");
-    fetch(`${process.env.API_URL}/dashboard`, {
+    fetch(`${process.env.REACT_APP_API_URL}/dashboard`, {
       headers: {
         Authorization: `Bearer ${token}`,
       },
