@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Expense Manager App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack expense tracking application built with React, Spring Boot, JWT Authentication, and MySQL.
 
-## Available Scripts
+## Live Demo
 
-In the project directory, you can run:
+Frontend: https://expenses-frontend-mptjzxhw9-harshitaslayss-projects.vercel.app/
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* User Registration and Login
+* JWT-based Authentication
+* Add Income and Expenses
+* Edit Transactions
+* Delete Transactions
+* Transaction Categorization
+* Secure REST API Integration
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+Frontend
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* React
+* Material UI
+* Axios
+* React Router
 
-### `npm run build`
+Backend
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Spring Boot
+* Spring Security
+* JWT
+* Hibernate/JPA
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Database
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* MySQL
 
-### `npm run eject`
+Deployment
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* Vercel
+* Render
+* Aiven (for MySQL Deployment)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Backend Repository
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Backend source code:
+https://github.com/harshitaslayss/expenses-backend.git
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Screenshots
 
-## Learn More
+<img width="1777" height="816" alt="{2BF880A2-BF77-4E11-9E2B-4993491647FC}" src="https://github.com/user-attachments/assets/cf357458-de37-46c9-9e58-8e8a8283ae35" />
+<img width="1913" height="848" alt="{D6A99478-461E-4B7E-B282-3C19217DE837}" src="https://github.com/user-attachments/assets/74c34bdb-f39e-4c84-934d-d9dbcfa82c13" />
+<img width="1917" height="865" alt="{1CD970A5-0E2A-4C44-8399-EB10B09298C3}" src="https://github.com/user-attachments/assets/bf898101-177c-4336-a0a7-c973dda8485a" />
+<img width="1918" height="857" alt="{05D0BB04-261A-48D2-AB77-8A7989632811}" src="https://github.com/user-attachments/assets/15b5c34d-a48c-446c-8980-499cc44805fb" />
+<img width="1915" height="696" alt="{C801E35F-5CE9-410E-8102-0B17E2088442}" src="https://github.com/user-attachments/assets/4f1bf833-081c-4138-b3f5-65365a17634b" />
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Harshita Sharma <3
