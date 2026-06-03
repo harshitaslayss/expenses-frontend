@@ -13,7 +13,7 @@ export function AnalyticsComp () {
       const token = localStorage.getItem("token");
     
       useEffect(() => {
-        fetch("http://localhost:8080/transactions", {
+        fetch(`${process.env.API_URL}/transactions`, {
           headers: {
             Authorization: `Bearer ${token}`
           }
@@ -24,7 +24,7 @@ export function AnalyticsComp () {
       }, [token]);
     
       useEffect(() => {
-        fetch("http://localhost:8080/categories", {
+        fetch(`${process.env.API_URL}/categories`, {
           headers: {
             Authorization: `Bearer ${token}`
           }
