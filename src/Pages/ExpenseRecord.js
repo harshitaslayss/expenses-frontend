@@ -31,7 +31,7 @@ function ExpenseRecord() {
     return categoryMatch && typeMatch;
   });
   const HandleDelete = (id) => {
-    fetch(`${process.env.API_URL}/transactions/${id}`, {
+    fetch(`${process.env.REACT_APP_API_URL}/transactions/${id}`, {
       method: "DELETE",
       headers: {
         Authorization: `Bearer ${token}`,
