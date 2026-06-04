@@ -4,7 +4,7 @@ A full-stack expense tracking application built with React, Spring Boot, JWT Aut
 
 ## Live Demo
 
-Frontend: https://expenses-frontend-mptjzxhw9-harshitaslayss-projects.vercel.app/
+Frontend: https://expenses-frontend-mauve.vercel.app/
 
 ## Features
 
